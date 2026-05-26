@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.casa</groupId>
+  <artifactId>sage</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>SageToCasa</name>
+  <description>Sage to CASA POS Data Converter</description>
+  
+  <properties>
+	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	    <maven.compiler.release>21</maven.compiler.release> <!-- Your current Java version -->
+	</properties>
+    
+  <dependencies>
+  	<dependency>
+	  <groupId>com.opencsv</groupId>
+	  <artifactId>opencsv</artifactId>
+	  <version>5.9</version>
+	</dependency>
+	<dependency>
+	  <groupId>com.fasterxml.jackson.core</groupId>
+	  <artifactId>jackson-databind</artifactId>
+	  <version>2.17.1</version>
+	</dependency>
+	<dependency>
+	  <groupId>com.fasterxml.jackson.datatype</groupId>
+	  <artifactId>jackson-datatype-jsr310</artifactId>
+	  <version>2.17.1</version>
+	</dependency>
+  </dependencies>
+</project>
